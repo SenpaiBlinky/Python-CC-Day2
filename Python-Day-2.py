@@ -28,6 +28,22 @@ print("\tLanguages:\nPython\nJavaScript\nC#\nHTML\nCSS")
 language = " Python "
 no_white_space_on_right = language.rstrip()
 
-print(no_white_space_on_right) # however this removes only right (left would be with an "l" infront)
+print(no_white_space_on_right)  # however this removes only right (left would be with an "l" infront)
 
-print(no_white_space_on_right.strip()) # removes both left and right (not in between)
+print(no_white_space_on_right.strip())  # removes both left and right (not in between)
+
+# --------------------------------Numbers-------------------------------------------
+
+print(2 ** 8)  # exponents are represented by double "*"
+
+print(0.2 + 0.1)  # extra accuracy bug
+
+name = "Richard"
+
+age = 21
+
+message = "Hello my name is " + name + " and I am " + str(age) + " years old ;)"  # be careful with mixing data types(use str() method)
+
+print(message)
+
+# ---------------Done with day 2 ------------------
